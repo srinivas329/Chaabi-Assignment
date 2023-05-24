@@ -1,0 +1,123 @@
+.bg-container{
+    background-image: url("https://res.cloudinary.com/dxvsvzsai/image/upload/v1684853052/background_p0ykfx.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.input-ele{
+    background-color: white;
+    width: 600px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+  text-align: center;
+}
+.keys{
+    background-color: lightblue;
+    background-size: cover;
+    width: 600px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.timing{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.timer-span{
+    color: red;
+    font-weight: bold;
+    background-color: silver;
+    width: 250px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.heading{
+    color: white;
+    font-family: roboto;
+    font-size: 50px;
+}
+.calculation-tab{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.key-count{
+    font-weight: 600px;
+    color: white;
+    font-size: 20px;
+}
+.span-count{
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    width: 50px;
+    padding-left: 10px;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+.accuracy{
+    font-weight: 600px;
+    color: white;
+    font-size: 20px;
+}
+.accuracy-span{
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+    width: 50px;
+    padding-left: 10px;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+.time-up{
+    color: red;
+    font-weight: 700;
+    font-size: 30px;
+}
+.button{
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pop-button{
+
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  margin-bottom: 20px;
+}
+
+.pop-image{
+    width: 700px;
+    border-radius: 10px;
+}
